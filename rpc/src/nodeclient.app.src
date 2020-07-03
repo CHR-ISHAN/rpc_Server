@@ -1,0 +1,16 @@
+{application, nodeclient,
+  [
+    {description, ""},
+    {vsn, "1"},
+    {registered, []},
+    {applications, [
+      kernel,
+      stdlib,
+      dhcomm,
+      lager,
+      protobuffs,
+      gproc
+    ]},
+    {mod, {nodeclient_app, []}},
+    {env, []}
+  ]}.
